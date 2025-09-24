@@ -55,7 +55,7 @@ ROOT_URLCONF = 'flashcard_project.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ["templates/pos_app"],
+        'DIRS': ["templates/card_app"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
